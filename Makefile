@@ -3,7 +3,7 @@
 workdir = $(shell pwd)
 tag = twdsc2014tutorial
 
-flag = -v ${workdir}/src:/src 
+flag = -v ${workdir}/src:/src -p 8787:8787
 repo = wush978
 
 bashflag = -i
